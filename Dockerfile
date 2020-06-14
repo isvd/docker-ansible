@@ -1,4 +1,4 @@
 FROM docker:stable
  
-RUN apk add bash git ansible py-pip && pip install docker
+RUN apk add bash sh git ansible py-pip && pip install docker
 
